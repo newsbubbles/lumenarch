@@ -1,0 +1,41 @@
+"""Spotify Web API Client for Empire.AI Music Video Maker."""
+
+from .client import (
+    SpotifyClient,
+    SearchRequest,
+    SearchResponse,
+    ArtistRequest,
+    ArtistAlbumsRequest,
+    ArtistTopTracksRequest,
+    RelatedArtistsRequest,
+    AudioFeaturesRequest,
+    SpotifyArtistFull,
+    SpotifyArtistSimple,
+    SpotifyAlbumSimple,
+    SpotifyTrackFull,
+    SpotifyTrackSimple,
+    SpotifyAudioFeatures,
+    SpotifyImage,
+    SpotifyExternalUrls,
+    SpotifyFollowers,
+)
+
+__all__ = [
+    "SpotifyClient",
+    "SearchRequest",
+    "SearchResponse",
+    "ArtistRequest",
+    "ArtistAlbumsRequest",
+    "ArtistTopTracksRequest",
+    "RelatedArtistsRequest",
+    "AudioFeaturesRequest",
+    "SpotifyArtistFull",
+    "SpotifyArtistSimple",
+    "SpotifyAlbumSimple",
+    "SpotifyTrackFull",
+    "SpotifyTrackSimple",
+    "SpotifyAudioFeatures",
+    "SpotifyImage",
+    "SpotifyExternalUrls",
+    "SpotifyFollowers",
+]
